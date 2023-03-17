@@ -1,0 +1,83 @@
+h1{
+    color: bisque;
+    border: 0.5rem dotted bisque ;
+}
+h2, h3, h4, h5, h6{
+    display: none;
+}
+body ul il {
+    color: antiquewhite;
+}
+p{
+    text-decoration: underline #ccc double 0.1rem;
+    text-indent: 1rem;
+}
+p.maisculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: azure;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem brown, 0 0 2rem palevioletred;
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: mediumpurple;
+}
+a:hover {
+    color: rosybrown;
+}
+footer{
+    clear: both;
+    background: #ccc url("../img/alua.png") no-repeat left bottom;
+    height: 1rem;
+}
+div{
+position: fixed;
+right: 0;
+bottom: 0;
+display: inline;
+z-index: 2rem;
+background-color: rgb(185, 144, 238); color: white;
+border: 0.2rem solid rgb(255, 91, 200);
+padding: 0.2rem;
+font-size: 2rem;
+}
+h1#pag1{
+    color: cornflowerblue;
+    border: 0.3rem dashed cornflowerblue;
+}
+img {
+    width: 20rem;
+}
+ul{
+    list-style-type: square;
+}
+h1#pag2{
+   color: indianred;
+   border: 1rem groove indianred;
+   border-radius: 0.7rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img {
+    float: left;
+}
+main.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+main.flexbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article{
+    background-color: palevioletred;
+    margin: 1rem;
+    padding: 2rem;
+}
